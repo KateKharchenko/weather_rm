@@ -1,0 +1,39 @@
+* {
+	margin: 0; /* что бы не было отступов от рамки */
+	box-sizing: border-box; /* убирается полоса прокрутки */
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	border: 20px solid #2b81ac;
+	background-color: #3399cc;
+	min-height: 100%;
+	font: 13px “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	color: #ffffff;
+}
+
+header {
+	
+}
+
+.weather-list {
+	list-style-type: none; убирает кружки
+	background-color: #ffffff;
+	width:  60%;
+	margin: 0 auto;
+} 
+.weather-list li {
+	display: inline-block;
+}
+.weather-list li.size1 {
+	width: 50%;
+}
+.weather-list li.size2 {
+	width: 25%;
+}
+.weather-list li.size3 {
+	width: 100%;
+}
